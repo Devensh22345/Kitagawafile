@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6990936455:AAEF3ONgUu5qIa6ERB3uZD6eE_uPnxTSJHQ")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7388776750:AAFQxjP07LE-vN8B4WrCsLisDGzj2Bn_tB4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "22207976"))
@@ -19,16 +19,16 @@ APP_ID = int(os.environ.get("APP_ID", "22207976"))
 API_HASH = os.environ.get("API_HASH", "5c0ad7c48a86afac87630ba28b42560d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001843643040"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002130495317"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5481593158"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6977991334"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://animebooth:animebooth@cluster0.vgljzot.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kitagawafile:kitagawafile@cluster0.xxfr5u6.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6872968794").split()):
+    for x in (os.environ.get("ADMINS", "6264642175").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
