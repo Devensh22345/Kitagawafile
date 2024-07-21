@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI am kitagawa Advance file share bot for anything everything for your inner peace 😈.")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\n\nI am kitagawa Advance file share bot for anything everything for your inner peace 😈.</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6264642175").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "🍑 𝗔𝗱𝘂𝗹𝘁 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗵𝗶𝗻𝗱𝗶 [𝟭𝟴+] 🤠 https://t.me/FileStore_Robot?start=Z2V0LTM5NjQ0MDcwNTc3MjU1ODM"
+USER_REPLY_TEXT = "<b>🍑 𝗔𝗱𝘂𝗹𝘁 𝗔𝗻𝗶𝗺𝗲 𝗶𝗻 𝗵𝗶𝗻𝗱𝗶 [𝟭𝟴+] 🤠 https://t.me/FileStore_Robot?start=Z2V0LTM5NjQ0MDcwNTc3MjU1ODM</b>"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(6872968794)
