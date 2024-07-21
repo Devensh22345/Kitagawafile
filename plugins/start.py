@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("😊 About Me", callback_data = "18+ Anime 😈 "),
+                    InlineKeyboardButton("18+ Anime 😍", url="https://t.me/FileStore_Robot?start=Z2V0LTM5NjQ0MDcwNTc3MjU1ODM"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
